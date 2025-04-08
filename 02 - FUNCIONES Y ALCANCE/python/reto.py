@@ -14,4 +14,4 @@ def print_numbers(text_1,text_2) -> int :
     return count 
 
 
-print(print_numbers("Senati kabro","Senati no es kabro"))
+print(print_numbers("TEXTO 1","TEXTO 2"))
