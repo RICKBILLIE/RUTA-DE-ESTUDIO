@@ -96,3 +96,34 @@ print(miset)
 
 print(type(miset))
 
+"""
+DICCIONARIO
+"""
+my_dict: dict = {
+    "name": "Brais",
+    "surname": "Moure",
+    "alias": "@mouredev",
+    "age": "36"
+}
+
+#AGREGAR
+my_dict["email"] = "mouredev@gmail.com"  # Inserción
+print(my_dict)
+
+# Eliminación
+del my_dict["surname"]  
+print(my_dict)
+
+# Acceso
+print(my_dict["name"])  
+
+# Actualización
+my_dict["age"] = "37"  
+print(my_dict)
+
+# Ordenación
+my_dict = dict(sorted(my_dict.items()))  
+
+#Devuelve pares clave-valor como tuplas
+print(my_dict)
+print(type(my_dict))
